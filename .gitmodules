@@ -1,0 +1,57 @@
+[submodule ".vim/bundle/neocomplcache"]
+	path = .vim/bundle/neocomplcache
+	url = https://github.com/Shougo/neocomplcache.git
+[submodule ".vim/bundle/vim-operator-user"]
+	path = .vim/bundle/vim-operator-user
+	url = git://github.com/kana/vim-operator-user.git
+[submodule ".vim/bundle/vim-operator-replace"]
+	path = .vim/bundle/vim-operator-replace
+	url = git://github.com/kana/vim-operator-replace.git
+[submodule ".vim/bundle/vimproc"]
+	path = .vim/bundle/vimproc
+	url = git://github.com/Shougo/vimproc.git
+[submodule ".vim/bundle/vimshell"]
+	path = .vim/bundle/vimshell
+	url = git://github.com/Shougo/vimshell.git
+[submodule ".vim/bundle/unite.vim"]
+	path = .vim/bundle/unite.vim
+	url = git://github.com/Shougo/unite.vim.git
+[submodule ".vim/bundle/vim-textobj-plugins"]
+	path = .vim/bundle/vim-textobj-plugins
+	url = git://github.com/thinca/vim-textobj-plugins.git
+[submodule ".vim/bundle/vim-alignta"]
+	path = .vim/bundle/vim-alignta
+	url = git://github.com/h1mesuke/vim-alignta.git
+[submodule ".vim/bundle/vim-surround"]
+	path = .vim/bundle/vim-surround
+	url = git://github.com/tpope/vim-surround.git
+[submodule ".vim/bundle/snipmate.vim"]
+	path = .vim/bundle/snipmate.vim
+	url = git://github.com/msanders/snipmate.vim.git
+[submodule ".vim/bundle/vim-textobj-user"]
+	path = .vim/bundle/vim-textobj-user
+	url = git://github.com/kana/vim-textobj-user.git
+[submodule ".vim/bundle/vim-textobj-comment"]
+	path = .vim/bundle/vim-textobj-comment
+	url = git://github.com/thinca/vim-textobj-comment.git
+[submodule ".vim/bundle/vim-textobj-between"]
+	path = .vim/bundle/vim-textobj-between
+	url = git://github.com/thinca/vim-textobj-between.git
+[submodule ".vim/bundle/vim-ruby"]
+	path = .vim/bundle/vim-ruby
+	url = https://github.com/vim-ruby/vim-ruby.git
+[submodule ".vim/bundle/vim-rails"]
+	path = .vim/bundle/vim-rails
+	url = https://github.com/tpope/vim-rails.git
+[submodule ".vim/bundle/zencoding-vim"]
+	path = .vim/bundle/zencoding-vim
+	url = https://github.com/mattn/zencoding-vim.git
+[submodule ".vim/bundle/taglist.vim"]
+	path = .vim/bundle/taglist.vim
+	url = https://github.com/vim-scripts/taglist.vim
+[submodule ".vim/bundle/vim-matchit"]
+	path = .vim/bundle/vim-matchit
+	url = https://github.com/tsaleh/vim-matchit.git
+[submodule ".vim/bundle/vim-ragtag"]
+	path = .vim/bundle/vim-ragtag
+	url = https://github.com/Hakuja/vim-ragtag.git
