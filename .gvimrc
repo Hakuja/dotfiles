@@ -9,5 +9,11 @@ set guioptions-=T
 colorscheme xoria256
 "colorscheme dawn
 
-set columns=120
-set lines=40
+" 標準
+"set columns=120
+"set lines=40
+
+" フルHDでiTermと半分ずつ
+set columns=98
+set lines=51
+
