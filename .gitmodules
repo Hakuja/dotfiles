@@ -67,3 +67,6 @@
 [submodule ".vim/bundle/php.vim"]
 	path = .vim/bundle/php.vim
 	url = https://github.com/vim-scripts/php.vim--Garvin.git
+[submodule ".vim/bundle/vim-twig.git"]
+	path = .vim/bundle/vim-twig.git
+	url = https://github.com/beyondwords/vim-twig.git

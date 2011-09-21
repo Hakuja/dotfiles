@@ -9,3 +9,5 @@ autocmd BufNewFile,BufReadPost *.sql set ft=mysql
 autocmd BufNewFile,BufReadPost *.haml set ft=haml
 autocmd BufNewFile,BufReadPost *.dokuwiki set ft=dokuwiki
 
+autocmd BufNewFile,BufRead *.twig set filetype=twig
+autocmd BufNewFile,BufRead *.html.twig set filetype=htmltwig
