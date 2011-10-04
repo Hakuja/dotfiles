@@ -64,6 +64,3 @@
 [submodule ".vim/bundle/nginx.vim"]
 	path = .vim/bundle/nginx.vim
 	url = git://github.com/vim-scripts/nginx.vim.git
-[submodule ".vim/bundle/vim-twig.git"]
-	path = .vim/bundle/vim-twig.git
-	url = https://github.com/beyondwords/vim-twig.git
