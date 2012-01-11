@@ -67,3 +67,6 @@
 [submodule ".vim/bundle/phpfolding.vim"]
 	path = .vim/bundle/phpfolding.vim
 	url = git://github.com/vim-scripts/phpfolding.vim.git
+[submodule ".vim/bundle/cake.vim"]
+	path = .vim/bundle/cake.vim
+	url = git://github.com/violetyk/cake.vim.git
