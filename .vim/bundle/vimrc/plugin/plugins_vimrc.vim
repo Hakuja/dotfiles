@@ -47,4 +47,29 @@ let SVNCommandNameResultBuffers=1
 let SVNCommandAutoSVK='svk'
 
 " neocomplcache.vim
+" 起動時に有効
 let g:neocomplcache_enable_at_startup = 1
+
+" ポップアップメニューで表示される候補の数
+let g:neocomplcache_max_list = 20
+
+" 自動補完入力文字数
+let g:neocomplcache_auto_completion_start_length = 2
+
+" 手動補完入力文字数
+let g:neocomplcache_manual_completion_start_length = 3
+
+" 大文字小文字無視
+let g:neocomplcache_enable_ignore_case = 1
+
+" 大文字優先
+let g:neocomplcache_enable_smart_case = 1
+
+"大文字小文字を区切りとしたあいまい検索を行うかどうか。
+"DTと入力するとD*T*と解釈され、DateTime等にマッチする。
+let g:neocomplcache_enable_camel_case_completion = 0
+
+"アンダーバーを区切りとしたあいまい検索を行うかどうか。
+"m_sと入力するとm*_sと解釈され、mb_substr等にマッチする。
+let g:neocomplcache_enable_underbar_completion = 0
+
