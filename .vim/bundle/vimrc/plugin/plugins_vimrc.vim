@@ -46,7 +46,8 @@ let SVNCommandEdit='split'
 let SVNCommandNameResultBuffers=1
 let SVNCommandAutoSVK='svk'
 
-" neocomplcache.vim
+" {{{ neocomplcache.vim
+
 " 起動時に有効
 let g:neocomplcache_enable_at_startup = 1
 
@@ -60,7 +61,7 @@ let g:neocomplcache_auto_completion_start_length = 2
 let g:neocomplcache_manual_completion_start_length = 3
 
 " 大文字小文字無視
-let g:neocomplcache_enable_ignore_case = 1
+let g:neocomplcache_enable_ignore_case = 0
 
 " 大文字優先
 let g:neocomplcache_enable_smart_case = 1
@@ -73,3 +74,4 @@ let g:neocomplcache_enable_camel_case_completion = 0
 "m_sと入力するとm*_sと解釈され、mb_substr等にマッチする。
 let g:neocomplcache_enable_underbar_completion = 0
 
+" }}} neocomplcache.vim
