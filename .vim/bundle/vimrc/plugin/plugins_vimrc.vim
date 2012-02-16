@@ -1,6 +1,6 @@
 
 " for operator replace
-map R <Plug>(operator-replace)
+map _ <Plug>(operator-replace)
 
 " for surround.vim
 "nmap s <Plug>Ysurround
@@ -75,3 +75,9 @@ let g:neocomplcache_enable_camel_case_completion = 0
 let g:neocomplcache_enable_underbar_completion = 0
 
 " }}} neocomplcache.vim
+
+" {{{ Indent Guides
+
+let g:indent_guides_enable_on_vim_startup = 1
+
+" }}} Indent Guides

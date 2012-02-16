@@ -35,6 +35,9 @@ NeoBundle 'git://github.com/vim-scripts/xoria256.vim.git'
 NeoBundle 'git://github.com/vim-scripts/xterm16.vim.git'
 NeoBundle 'git://github.com/violetyk/cake.vim.git'
 
+NeoBundle 'git://github.com/nathanaelkane/vim-indent-guides.git'
+NeoBundle 'git://github.com/banyan/recognize_charcode.vim.git'
+
 "NeoBundle 'git://github.com/msanders/snipmate.vim.git'
 "NeoBundle 'git://github.com/cakebaker/scss-syntax.vim.git'
 "NeoBundle 'git://github.com/kchmck/vim-coffee-script.git'
