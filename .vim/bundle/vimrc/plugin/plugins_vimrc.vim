@@ -80,5 +80,8 @@ let g:neocomplcache_enable_underbar_completion = 0
 " {{{ Indent Guides
 
 let g:indent_guides_enable_on_vim_startup = 1
+let g:indent_guides_auto_colors = 0
+hi IndentGuidesOdd  ctermfg=239 ctermbg=black
+hi IndentGuidesEven ctermfg=239 ctermbg=235
 
 " }}} Indent Guides
