@@ -37,6 +37,8 @@ NeoBundle 'git://github.com/violetyk/cake.vim.git'
 
 NeoBundle 'git://github.com/nathanaelkane/vim-indent-guides.git'
 NeoBundle 'git://github.com/banyan/recognize_charcode.vim.git'
+NeoBundle 'git://github.com/timcharper/textile.vim.git'
+NeoBundle 'git://github.com/vim-scripts/grep.vim.git'
 
 "NeoBundle 'git://github.com/msanders/snipmate.vim.git'
 "NeoBundle 'git://github.com/cakebaker/scss-syntax.vim.git'

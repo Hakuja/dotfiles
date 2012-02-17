@@ -34,6 +34,7 @@ silent! nmap <unique> ,r <Plug>(quickrun)
 " RGrep
 let Grep_Skip_Dirs = '.svn'
 let Grep_Skip_Files = 'tags *.bak *~ *.swp *.log'
+let Grep_Xargs_Options = '--print0'
 
 " QFixGrep
 let MyGrep_ExcludeReg = '[~#]$\|\.svn-base$\|\.bak$\|\.o$\|\.obj$\|\.exe$\|[/\\]tags$\|^tags$'
