@@ -17,6 +17,7 @@ NeoBundle 'git://github.com/h1mesuke/vim-alignta.git'
 NeoBundle 'git://github.com/kana/vim-operator-replace.git'
 NeoBundle 'git://github.com/kana/vim-operator-user.git'
 NeoBundle 'git://github.com/kana/vim-textobj-user.git'
+NeoBundle 'git://github.com/kchmck/vim-coffee-script.git'
 NeoBundle 'git://github.com/mattn/zencoding-vim.git'
 NeoBundle 'git://github.com/nathanaelkane/vim-indent-guides.git'
 NeoBundle 'git://github.com/thinca/vim-quickrun.git'
@@ -42,7 +43,6 @@ NeoBundle 'git://github.com/violetyk/cake.vim.git'
 
 "NeoBundle 'git://github.com/msanders/snipmate.vim.git'
 "NeoBundle 'git://github.com/cakebaker/scss-syntax.vim.git'
-"NeoBundle 'git://github.com/kchmck/vim-coffee-script.git'
 "NeoBundle 'git://github.com/vim-scripts/nginx.vim.git'
 
 " 基本的な設定はこちら
