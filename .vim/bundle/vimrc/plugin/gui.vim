@@ -47,13 +47,14 @@ endif
 set ttymouse=xterm2
 
 " カラースキーマ
-if &term=="xterm" || &term=="xterm-color" ||&term=="xterm-256color" || &term=="screen-bce" || &term=="mlterm"
-  set t_Co=256
-  colorscheme xoria256
-else
-  set t_Co=16
-  colo xterm16
-endif
+"if &term=="xterm" || &term=="xterm-color" ||&term=="xterm-256color" || &term=="screen-bce" || &term=="mlterm"
+"  set t_Co=256
+"  colorscheme xoria256
+"else
+"  set t_Co=16
+"  colo xterm16
+"endif
+colorscheme default
 highlight NonText ctermfg=239
 highlight SpecialKey ctermfg=239
 
