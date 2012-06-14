@@ -55,8 +55,8 @@ set ttymouse=xterm2
 "  colo xterm16
 "endif
 colorscheme default
-highlight NonText ctermfg=239
-highlight SpecialKey ctermfg=239
+"highlight NonText ctermfg=239
+"highlight SpecialKey ctermfg=239
 
 " ポップアップメニューの色
 highlight Pmenu ctermbg=lightcyan ctermfg=black 
