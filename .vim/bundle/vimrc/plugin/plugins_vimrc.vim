@@ -85,3 +85,18 @@ hi IndentGuidesOdd  ctermfg=239 ctermbg=black
 hi IndentGuidesEven ctermfg=239 ctermbg=235
 
 " }}} Indent Guides
+
+" {{{ vimfiler
+
+" vimデフォルトのエクスプローラをvimfilerで置き換える
+let g:vimfiler_as_default_explorer = 1
+
+" <Leader>e で現在開いているバッファのディレクトリを開く
+nnoremap <F2> :VimFiler -buffer-name=explorer -split -winwidth=35 -toggle -no-quit<Cr>
+autocmd! FileType vimfiler call g:my_vimfiler_settings()
+function! g:my_vimfiler_settings()
+  nmap     <buffer><expr><Cr> vimfiler#smart_cursor_map("\<Plug>(vimfiler_expand_tree)", "\<Plug>(vimfiler_edit_file)")
+  nmap     <buffer><expr>- vimfiler#smart_cursor_map("\<Plug>(vimfiler_switch_to_parent_directory)", "\<Plug>(vimfiler_switch_to_parent_directory)")
+endfunction
+
+" }}} vimfiler

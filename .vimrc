@@ -10,6 +10,7 @@ NeoBundle 'git://github.com/Hakuja/vim-ragtag.git'
 NeoBundle 'git://github.com/Shougo/neobundle.vim.git'
 NeoBundle 'git://github.com/Shougo/neocomplcache.git'
 NeoBundle 'git://github.com/Shougo/unite.vim.git'
+NeoBundle 'git://github.com/Shougo/vimfiler.git'
 NeoBundle 'git://github.com/Shougo/vimproc.git'
 NeoBundle 'git://github.com/Shougo/vimshell.git'
 NeoBundle 'git://github.com/banyan/recognize_charcode.vim.git'
@@ -20,6 +21,8 @@ NeoBundle 'git://github.com/kana/vim-textobj-user.git'
 NeoBundle 'git://github.com/kchmck/vim-coffee-script.git'
 NeoBundle 'git://github.com/mattn/zencoding-vim.git'
 NeoBundle 'git://github.com/nathanaelkane/vim-indent-guides.git'
+NeoBundle 'git://github.com/nono/jquery.vim.git'
+NeoBundle 'git://github.com/pangloss/vim-javascript.git'
 NeoBundle 'git://github.com/thinca/vim-quickrun.git'
 NeoBundle 'git://github.com/thinca/vim-ref.git'
 NeoBundle 'git://github.com/thinca/vim-textobj-between.git'
@@ -40,6 +43,14 @@ NeoBundle 'git://github.com/vim-scripts/taglist.vim'
 NeoBundle 'git://github.com/vim-scripts/xoria256.vim.git'
 NeoBundle 'git://github.com/vim-scripts/xterm16.vim.git'
 NeoBundle 'git://github.com/violetyk/cake.vim.git'
+
+NeoBundle 'git://github.com/tomasr/molokai.git'
+NeoBundle 'git://github.com/chriskempson/vim-tomorrow-theme.git'
+NeoBundle 'Wombat'                              " [GUI版専用] Wombat
+NeoBundle 'BusyBee'                             " BusyBee(GUI版/256色端末)
+NeoBundle 'Lucius'                              " Lucius(GUI版/256色端末)
+NeoBundle 'altercation/vim-colors-solarized'    " Solarized(GUI版/256色端末/16色端末)
+NeoBundle 'noahfrederick/Hemisu'                " Hemisu(GUI版/256食端末)
 
 "NeoBundle 'git://github.com/msanders/snipmate.vim.git'
 "NeoBundle 'git://github.com/cakebaker/scss-syntax.vim.git'
