@@ -56,7 +56,8 @@ set ttymouse=xterm2
 "endif
 colorscheme default
 "highlight NonText ctermfg=239
-"highlight SpecialKey ctermfg=239
+"highlight SpecialKey ctermfg=lightgray
+highlight SpecialKey ctermfg=4
 
 " ポップアップメニューの色
 highlight Pmenu ctermbg=lightcyan ctermfg=black 
