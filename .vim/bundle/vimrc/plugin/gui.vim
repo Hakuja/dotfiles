@@ -55,8 +55,9 @@ set ttymouse=xterm2
 "  colo xterm16
 "endif
 set t_Co=256
-"colorscheme default
-colorscheme lucius
+colorscheme railscasts
+"colorscheme Tomorrow-Night
+"colorscheme lucius
 "highlight NonText ctermfg=239
 "highlight SpecialKey ctermfg=lightgray
 "highlight SpecialKey ctermfg=4

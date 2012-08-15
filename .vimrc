@@ -44,6 +44,7 @@ NeoBundle 'git://github.com/vim-scripts/xoria256.vim.git'
 NeoBundle 'git://github.com/vim-scripts/xterm16.vim.git'
 NeoBundle 'git://github.com/violetyk/cake.vim.git'
 NeoBundle 'git://github.com/seveas/bind.vim.git'
+NeoBundle 'git://github.com/groenewege/vim-less.git'
 
 NeoBundle 'git://github.com/tomasr/molokai.git'
 NeoBundle 'git://github.com/chriskempson/vim-tomorrow-theme.git'
