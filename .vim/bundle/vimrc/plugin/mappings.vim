@@ -47,3 +47,26 @@ noremap ,e :source ~/.vimrc<CR>:echo 'read vimrc!'<CR>
 noremap ,re :source ~/.vimrc<CR>:echo 'reload .vimrc!!'<CR>
 noremap ,v :r! cat -<CR>
 
+" 括弧補完
+inoremap <C-[> ['']<Left><Left>
+inoremap { {}<LEFT>
+inoremap [ []<LEFT>
+inoremap ( ()<LEFT>
+inoremap " ""<LEFT>
+inoremap ' ''<LEFT>
+vnoremap { "zdi{<C-R>z}<ESC>
+vnoremap [ "zdi[<C-R>z]<ESC>
+vnoremap ( "zdi(<C-R>z)<ESC>
+vnoremap " "zdi"<C-R>z"<ESC>
+vnoremap ' "zdi'<C-R>z'<ESC>
+
+" インサートモード中の移動
+inoremap <C-F> <Right>
+inoremap <C-B> <Left>
+inoremap <C-E> <ESC>$a
+
+" アロー演算子
+inoremap <C-]> =>
+inoremap <C-_> ->
+
+inoremap <C-A> array()<Left>
