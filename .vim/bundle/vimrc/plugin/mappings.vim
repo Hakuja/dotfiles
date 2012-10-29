@@ -48,7 +48,7 @@ noremap ,re :source ~/.vimrc<CR>:echo 'reload .vimrc!!'<CR>
 noremap ,v :r! cat -<CR>
 
 " 括弧補完
-inoremap <C-[> ['']<Left><Left>
+inoremap <C-\> ['']<Left><Left>
 inoremap { {}<LEFT>
 inoremap [ []<LEFT>
 inoremap ( ()<LEFT>
