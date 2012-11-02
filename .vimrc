@@ -46,6 +46,8 @@ NeoBundle 'git://github.com/violetyk/cake.vim.git'
 NeoBundle 'git://github.com/seveas/bind.vim.git'
 NeoBundle 'git://github.com/groenewege/vim-less.git'
 
+NeoBundle 'joonty/vdebug.git'
+
 NeoBundle 'git://github.com/tomasr/molokai.git'
 NeoBundle 'git://github.com/chriskempson/vim-tomorrow-theme.git'
 NeoBundle 'Wombat'                              " [GUI»«¿ÏÕ—] Wombat
