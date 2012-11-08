@@ -100,3 +100,7 @@ function! g:my_vimfiler_settings()
 endfunction
 
 " }}} vimfiler
+
+" SQLで<C-C>を無効にする
+let g:omni_sql_no_default_maps = 1
+
