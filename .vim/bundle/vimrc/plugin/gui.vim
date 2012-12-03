@@ -55,16 +55,41 @@ set ttymouse=xterm2
 "  colo xterm16
 "endif
 set t_Co=256
-colorscheme railscasts
-"colorscheme Tomorrow-Night
-"colorscheme lucius
+
+" {{{ light
+set background=light
+""hi IndentGuidesOdd  ctermbg=white
+""hi IndentGuidesEven ctermbg=lightgrey
+let g:indent_guides_auto_colors = 1
+"let g:solarized_termcolors=16
+"let g:solarized_termtrans=0
+"let g:solarized_degrade=0
+"let g:solarized_bold=1
+"let g:solarized_underline=1
+"let g:solarized_italic=1
+"let g:solarized_contrast='normal'
+"let g:solarized_visibility='low'
+" }}} light
+
+" {{{ dark
+"let g:indent_guides_auto_colors = 0
+"hi IndentGuidesOdd  ctermfg=239 ctermbg=black
+"hi IndentGuidesEven ctermfg=239 ctermbg=235
+"set background=dark
 "highlight NonText ctermfg=239
 "highlight SpecialKey ctermfg=lightgray
 "highlight SpecialKey ctermfg=4
-highlight SpecialKey ctermfg=gray
+"highlight SpecialKey ctermfg=gray
 
 " ポップアップメニューの色
-highlight Pmenu ctermbg=lightcyan ctermfg=black 
-highlight PmenuSel ctermbg=blue ctermfg=black 
-highlight PmenuSbar ctermbg=darkgray 
-highlight PmenuThumb ctermbg=lightgray
+"highlight Pmenu ctermbg=lightcyan ctermfg=black 
+"highlight PmenuSel ctermbg=blue ctermfg=black 
+"highlight PmenuSbar ctermbg=darkgray 
+"highlight PmenuThumb ctermbg=lightgray
+" }}} dark
+
+"colorscheme railscasts
+"colorscheme Tomorrow-Night
+"colorscheme lucius
+colorscheme solarized
+"colorscheme default
