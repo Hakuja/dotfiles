@@ -86,7 +86,7 @@ let g:indent_guides_enable_on_vim_startup = 1
 " {{{ vimfiler
 
 " vimデフォルトのエクスプローラをvimfilerで置き換える
-let g:vimfiler_as_default_explorer = 1
+let g:vimfiler_as_default_explorer = 0
 
 " <Leader>e で現在開いているバッファのディレクトリを開く
 nnoremap <F2> :VimFiler -buffer-name=explorer -split -winwidth=35 -toggle -no-quit<Cr>
